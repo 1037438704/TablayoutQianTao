@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="zdl.tianxunda.com.tablayoutqiantao.aty.SearchAty">
+    <include layout="@layout/item_layout_one" />
+    <!-- 布局一 -->
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ll_bujuyi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/icon_search_list_1" />
+
+            <include layout="@layout/icon_search_list_2" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <!-- 布局二 -->
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/item_layout_two" />
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

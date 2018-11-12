@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 边框颜色 -->
+    <color name="color_frame">#939393</color>
+    <color name="tablayout_title">#666666</color>
+    <color name="home_bg">#D2D2D2</color>
+    <color name="text_bg_kuaixun">#E0E7F1</color>
+    <color name="home_bg_1">#efefef</color>
+    <color name="popupwindow_bg">#F7F7F7</color>
+    <!-- 主题色 -->
+    <color name="theme_color">#FA7653</color>
+    <color name="text_bg_color">#E14D3E</color>
+    <color name="text_while_ban">#96ffffff</color>
+    <color name="text_green">#20B046</color>
+    <color name="text_gray">#666666</color>
+    <color name="transparent_bg">#00000000</color>
+    <color name="translucent_bg">#80000000</color>
+    <color name="black_1">#333333</color>
+    <color name="ll_layout_bg">#F5F5F5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange_light">#fae6d6</color>
+
+</resources>

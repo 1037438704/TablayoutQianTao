@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/image_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@mipmap/icon_home_search_black" />
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/image_search"
+            android:background="@color/white"
+            android:hint="请输入搜索内容"
+            android:inputType="text"
+            android:lines="1" />
+
+        <TextView
+            android:id="@+id/text_right_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="取消" />
+    </RelativeLayout>
+
+    <include layout="@layout/view_one" />
+</LinearLayout>

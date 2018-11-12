@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_item"
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/home_text_bg_gonggao"
+    android:gravity="center"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:text="全部"
+    android:textColor="@drawable/home_text_color_gonggao"
+    android:textSize="14dp" />
